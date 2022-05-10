@@ -1,0 +1,774 @@
+{% extends 'home/base.html' %}
+{% load static %}
+
+
+{% block title %} COŞKUN MARKA ALIŞVERİŞ {% endblock %}
+
+{% block logo %}
+<img src="{% static 'home/assets/images/S.jpg' %}">
+
+
+{% endblock %}
+
+
+{% block menu %}
+<li class="scroll-to-section"><a href="http://127.0.0.1:8000/" class="active">ANASAYFA</a></li>
+<li class="scroll-to-section"><a href="#men">ERKEK</a></li>
+<li class="scroll-to-section"><a href="#women">KADIN</a></li>
+<li class="scroll-to-section"><a href="#kids">KIZLAR</a></li>
+<li class="submenu">
+    <a href="javascript:;">SAYFALAR</a>
+    <ul>
+        <li><a href="about.html">HAKKIMIZDA</a></li>
+        <li><a href="products.html">ÜRÜNLER</a></li>
+        <li><a href="single-product.html">SEÇİLİ ÜRÜN</a></li>
+        <li><a href="contact.html">BİZE ULAŞIN</a></li>
+    </ul>
+</li>
+<li class="submenu">
+    <a href="javascript:;">ÖZELLİKLER</a>
+    <ul>
+        <li><a href="#">Özellikler Sayfa  1</a></li>
+        <li><a href="#">Özellikler Sayfa  2</a></li>
+        <li><a href="#">Özellikler Sayfa  3</a></li>
+        <li><a rel="nofollow" href="https://templatemo.com/page/4" target="_blank">Özellikler Sayfa  4</a></li>
+    </ul>
+</li>
+<li class="scroll-to-section"><a href="#explore">KEŞFET</a></li>
+</ul>
+<a class='menu-trigger'>
+    <span>Menu</span>
+</a>
+{% endblock %}
+
+
+{% block main %}
+<div class="main-banner" id="top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content">
+                    <div class="thumb">
+                        <div class="inner-content">
+                            <h4>BİZ BİR MARKAYIZ</h4>
+                            <span>COŞKUN MARKA SENDE DE OLSUN...</span>
+                            <div class="main-border-button">
+                                <a href="#">ŞİMDİ SATIN AL!</a>
+                            </div>
+                        </div>
+                        <img src="{% static 'home/assets/images/left-banner-image.jpg' %}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>KADINLAR</h4>
+                                        <span>KADINLAR İÇİN EN İYİ GİYSİLER</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>KADIN</h4>
+                                            <p>KADINLARIN EN İYİ GİYİNDİKLERİ YERE GECMEK ÜZERESİNİZ...</p>
+                                            <div class="main-border-button">
+                                                <a href="#">DAHA FAZLASINI KEŞFET</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="{% static 'home/assets/images/baner-right-image-01.jpg' %}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>ERKEK</h4>
+                                        <span>ERKEKLER İÇİN EN İYİ GİYİSİLER...</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>ERKEK</h4>
+                                            <p>ERKEKLERİN EN İYİ DOLABI...</p>
+                                            <div class="main-border-button">
+                                                <a href="#">DAHA FAZLASINI KEŞFET</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="{% static 'home/assets/images/baner-right-image-02.jpg' %}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>ÇOÇUKLAR</h4>
+                                        <span>ÇOÇUKLAR İÇİN EN İYİ YER.</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>ÇOÇUKLAR</h4>
+                                            <p>ERKEN KALKIN COCUKLAR GİYİN EN GÜZEL GİYSİLERİNİZİ.</p>
+                                            <div class="main-border-button">
+                                                <a href="#">DAHA FAZLASINI KEŞFETİN</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="{% static 'home/assets/images/baner-right-image-03.jpg' %}">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-first-image">
+                                <div class="thumb">
+                                    <div class="inner-content">
+                                        <h4>AKSESUARLAR</h4>
+                                        <span>EN TREND AKSESUARLAR BURADA ...</span>
+                                    </div>
+                                    <div class="hover-content">
+                                        <div class="inner">
+                                            <h4>AKSESUARLAR</h4>
+                                            <p>AKSESUARLARDA BİZİ GEÇEN BAŞKA YER YOK GALİBA :).</p>
+                                            <div class="main-border-button">
+                                                <a href="#">DAHA FAZLASINI KEŞFET</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <img src="{% static 'home/assets/images/baner-right-image-04.jpg' %}">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block section %}
+<section class="section" id="men">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>ERKEKLERDE SON ÇIKANLAR</h2>
+                    <span>ERKEKLER İÇİN COŞKUN MARKA BİR VAZGEÇİLMEZDİR...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="men-item-carousel">
+                    <div class="owl-men-item owl-carousel">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/men-01.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>BAHARLARIN EN GÜZELİ </h4>
+                                <span>1199.99 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/men-02.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>AİR FORCE X COŞKUN</h4>
+                                <span>1199.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/men-03.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>COŞKUN KOMBİN</h4>
+                                <span>550.00 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/men-01.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>COŞKUN BAHAR</h4>
+                                <span>429.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+{% block women %}
+<section class="section" id="women">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>KADINLARDA SEÇİLİ ÜRÜNLER</h2>
+                    <span>KADINLARI ÇİÇEKTİR EN GÜZEL ÇİÇEKLER BURDA GİYİNİR...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="women-item-carousel">
+                    <div class="owl-women-item owl-carousel">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/women-01.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>YENİ YEŞİL ÇEKET</h4>
+                                <span>759.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/women-02.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>MENEKŞE ELBİSE</h4>
+                                <span>459.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/women-03.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>BAHARLARDA AÇAN
+                                    ÇİÇEK KOLEKSİYONU</h4>
+                                <span>1399.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/women-01.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>COŞKUN BAHAR
+                                    KOLEKSİYONU</h4>
+                                <span>1298.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+{% block kids %}
+<section class="section" id="kids">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="section-heading">
+                    <h2>ÇOÇUKLAR İÇİN SEÇİLİ ÜRÜNLER</h2>
+                    <span>ÇOÇUKLARIMIZA EN İYİ FOTOĞRAFLAR GÖSTERMEK İÇİN GÜZEL GİYİNDİRMENİZ LAZIM...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="kid-item-carousel">
+                    <div class="owl-kid-item owl-carousel">
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/kid-01.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>OKUL KOLEKSİYONU</h4>
+                                <span>489.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/kid-02.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>YAZLARIN ŞAPKASI</h4>
+                                <span>120.00 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/kid-03.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>COŞKUN ÇOÇUK</h4>
+                                <span>309.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="thumb">
+                                <div class="hover-content">
+                                    <ul>
+                                        <li><a href="single-product.html"><i class="fa fa-eye"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-star"></i></a></li>
+                                        <li><a href="single-product.html"><i class="fa fa-shopping-cart"></i></a></li>
+                                    </ul>
+                                </div>
+                                <img src="{% static 'home/assets/images/kid-01.jpg' %}" alt="">
+                            </div>
+                            <div class="down-content">
+                                <h4>KILASİK COŞKUN</h4>
+                                <span>999.90 TL</span>
+                                <ul class="stars">
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block explore %}
+<section class="section" id="explore">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content">
+                    <h2>ÜRÜNLERİMİZİ KEŞFEDİN </h2>
+                    <span>COŞKUN ÜRÜNLERİMİZ BİRDEN BİRE TIRNAKTAN TIRNAĞA EN COK TERÇİH EDİLEN BİR HARİKALAR MARKASIDIR...</span>
+                    <div class="quote">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Elbise vücuda asılmamalı, çizgilerini takip etmelidir. Giyene eşlik etmeli ve bir kadın gülümsediğinde elbise onunla gülümsemelidir.</p>
+                    </div>
+                    <p>"İyi giyinmek aslında sadece bir 'şekilcilik' baskısı değildir ve kişinin psikolojisi üzerinde dahi etkileri vardır. Gün sonunda elbette giyeceğiniz kıyafetin seçimi sizin ve size akıl vermek için burada değiliz.
+                        Yapabileceğimiz şey, iyi görünmenin önemini anlatmak ve tercihi size bırakmak!"
+
+İyi bir ilk izlenim bırakmak için sadece bir şansınız var, o halde neden elinizden gelenin en iyisini yapmıyorsunuz ve bu durum için iyi giyindiğinizden emin olmuyorsunuz?
+                        İnsanlar olumlu tepki verirler ve sizi olumlu bir şekilde hatırlarlar..</p>
+                    <p>Kendinizi ifade etmek için bir fırsat olarak giyinmeyi kaçırmayın. Nasıl giyindiğiniz konusunda çok fazla kişilik ve karakter gösterebilirsiniz, bu nedenle insanlara hemen kim olduğunuza dair görsel bir izlenim verebilirsiniz. <a rel="nofollow"
+                                                                                                     href="https://paypal.me/templatemo"
+                                                                                                     target="_blank">support
+                        us</a> biraz PayPal ile. Lütfen arkadaşlarınıza da harika MARKAMIZDAN sitemizden bahsedin. Teşekkür ederim.
+                    </p>
+                    <div class="main-border-button">
+                        <a href="products.html">DAHA FAZLASINI KEŞFET</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="right-content">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="leather">
+                                <h4>DERİ ÇANTALAR</h4>
+                                <span>SON KOLEKSİYON</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="first-image">
+                                <img src="{% static 'home/assets/images/explore-image-01.jpg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="second-image">
+                                <img src="{% static 'home/assets/images/explore-image-02.jpg' %}" alt="">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="types">
+                                <h4>FARKLI ŞEKİLLER</h4>
+                                <span>304' ÜN ÜZERİNDE ÜRÜNLER</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+{% block media %}
+<section class="section" id="social">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section-heading">
+                    <h2>SOSYAL MEDYA</h2>
+                    <span>AYRINTILAR KADAR AYRINTI, COŞKUN MARKASINI DİĞER MARKALARDAN FARKLI KILAN ŞEY...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row images">
+            <div class="col-2">
+                <div class="thumb">
+                    <div class="icon">
+                        <a href="http://instagram.com">
+                            <h6>MODA</h6>
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="{% static 'home/assets/images/instagram-01.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="thumb">
+                    <div class="icon">
+                        <a href="http://instagram.com">
+                            <h6>YENİ</h6>
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="{% static 'home/assets/images/instagram-02.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="thumb">
+                    <div class="icon">
+                        <a href="http://instagram.com">
+                            <h6>MARKA</h6>
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="{% static 'home/assets/images/instagram-03.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="thumb">
+                    <div class="icon">
+                        <a href="http://instagram.com">
+                            <h6>MAKYAJ YAPMAK</h6>
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="{% static 'home/assets/images/instagram-04.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="thumb">
+                    <div class="icon">
+                        <a href="http://instagram.com">
+                            <h6>DERİ</h6>
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="{% static 'home/assets/images/instagram-05.jpg' %}" alt="">
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="thumb">
+                    <div class="icon">
+                        <a href="http://instagram.com">
+                            <h6>ÇANTA</h6>
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                    <img src="{% static 'home/assets/images/instagram-06.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+
+{% block subs %}
+<div class="subscribe">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="section-heading">
+                    <h2>MARKAMIZA KATILARAK %30 İNDİRİM KODU KAZANABİLİRSİNİZ</h2>
+                    <span>AYRINTILAR KADAR AYRINTI, COŞKUN MARKASINI DİĞER MARKALARDAN FARKLI KILAN ŞEY...</span>
+                </div>
+                <form id="subscribe" action="" method="get">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <fieldset>
+                                <input name="name" type="text" id="name" placeholder="Adınızı Giriniz" required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-5">
+                            <fieldset>
+                                <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*"
+                                       placeholder="E Posta Adersi" required="">
+                            </fieldset>
+                        </div>
+                        <div class="col-lg-2">
+                            <fieldset>
+                                <button type="submit" id="form-submit" class="main-dark-button"><i
+                                        class="fa fa-paper-plane"></i></button>
+                            </fieldset>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>MAĞAZANIN KONUMU:<br><span>HATAY/İSKENDERUN MUHYİDDİN İBN-İ ARABİ ERKEK YURDU.</span></li>
+                            <li>TELEFON:<br><span>+90551-586-0901</span></li>
+                            <li>OFİS KONUMU:<br><span>İSTE KÜTÜPHANESİ.</span></li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>ÇALIŞMA SATLERİ:<br><span>SAAT 9:00 VE 21:00 </span></li>
+                            <li>E POSTA:<br><span>izzetwohar@gmail.com</span></li>
+                            <li>SOSYAL MEDYA:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="https://github.com/izzetcos" target="_blank">GitHub</a>, <a
+                                    href="https://www.linkedin.com/in/izzet-co%C5%9Fkun-6457221b7/" target="_blank">Linkedin</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+
+{% block footer %}
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="first-item">
+                    <div class="logo">
+                        <img src="{% static 'home/assets/images/S.jpg' %}" alt="COŞKUN MARKA...">
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://www.google.com.tr/maps/place/KYK+erkek+yurdu/@36.5719276,36.1472696,16.37z/data=!4m18!1m12!4m11!1m6!1m2!1s0x152f592d49f10bcd:0x71627fb2e950ada4!2s%C4%B0skenderun,+Hatay!2m2!1d36.1756161!2d36.584673!1m3!2m2!1d30.599106!2d36.842046!3m4!1s0x152f5923732bef9f:0x72582d4e90e200e1!8m2!3d36.5738825!4d36.1469232?hl=tr">HATAY/İSKENDERUN
+                                MUHYİDDİN İBN-İ ERKEK YURDU.</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox">izzetwohar@gmail.com</a></li>
+                        <li><a href="#">0551-586-0901</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <h4>ALIŞVERİŞ &amp; KATALOGLAR</h4>
+                <ul>
+                    <li><a href="#">EKEKLER İÇİN ALIŞVERİŞ</a></li>
+                    <li><a href="#">KADINLAR İÇİN ALIŞVERİŞ</a></li>
+                    <li><a href="#">ÇOÇUKLAR İÇİN ALIŞVERİŞ</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h4>BAĞLANTILAR</h4>
+                <ul>
+                    <li><a href="http://127.0.0.1:8000/">ANASAYFA</a></li>
+                    <li><a href="http://127.0.0.1:8000/">HAKKIMIDA</a></li>
+                    <li><a href="http://127.0.0.1:8000/">YARDIM</a></li>
+                    <li><a href="http://127.0.0.1:8000/">BİZE ULAŞIN</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <h4>YARDIM &amp; BİLGİ</h4>
+                <ul>
+                    <li><a href="https://mail.google.com/mail/u/0/?pli=1#inbox">YARDIM</a></li>
+                    <li><a href="#">FAKS</a></li>
+                    <li><a href="http://127.0.0.1:8000/">ALIŞVERİŞ</a></li>
+                    <li><a href="#">SİPARİŞİM NEREDE?</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-12">
+                <div class="under-footer">
+                    <p>Telif Hakkı © 2022 COŞKUN MARKA, Ltd. Tüm Hakları Saklıdır.
+
+                        <br>TASARIM: <a>İZZETTİN COŞKUN</a>
+                    </p>
+                    <ul>
+                        <li class="socialmedya"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="socialmedya"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="socialmedya"><a href="https://www.linkedin.com/in/izzet-co%C5%9Fkun-6457221b7/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="socialmedya"><a href="https://github.com/izzetcos" target="_blank"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
